@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>DreamNest — Chambres d’enfants sur mesure à Rabat</title>
+  <meta name="description" content="Chambres d’enfants sur mesure à Rabat : lits avec toboggan, mezzanine, rangements intégrés, thèmes Astro, Adventure, Dino, Princesse, Rainbow et Beauty. Demande de devis simple." />
+  <meta name="theme-color" content="#F7F3EC" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    :root{ --cream:#F7F3EC; --ink:#243137; --muted:#5A7076; --teal:#A8C2BE; --sand:#E9DDCF; }
+    html,body{font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,'Helvetica Neue',Arial; color:var(--ink); background:var(--cream)}
+    .container{max-width:1200px}
+    .card{background:white;border-radius:1.25rem;box-shadow:0 10px 30px rgba(0,0,0,.06)}
+    .badge{background:rgba(168,194,190,.15); color:#345; border:1px solid rgba(0,0,0,.05); padding:.25rem .6rem; border-radius:.6rem; font-size:.8rem}
+    img{display:block}
+    .navlink{color:var(--muted)} .navlink:hover{color:var(--ink)}
+  </style>
+</head>
+<body>
+  <header class="sticky top-0 z-40 bg-[var(--cream)]/85 backdrop-blur border-b border-black/5">
+    <div class="container mx-auto px-5 py-4 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <a href="/"><img src="/assets/logo.svg" alt="DreamNest logo" class="w-9 h-9" /></a>
+        <a href="/" class="font-semibold text-lg">DreamNest</a>
+      </div>
+      <nav class="hidden md:flex items-center gap-8 text-[15px]">
+        <a href="/#offres" class="navlink">Offres</a>
+        <a href="/#themes" class="navlink">Thèmes</a>
+        <a href="/galerie.html" class="navlink">Réalisations</a>
+        <a href="/#contact" class="navlink">Devis</a>
+      </nav>
+      <a href="https://wa.me/33764406946" target="_blank" class="hidden md:inline-block bg-[var(--ink)] text-white px-4 py-2 rounded-xl hover:opacity-90">Devis WhatsApp</a>
+    </div>
+  </header>
+<section class="container mx-auto px-5 pt-12 pb-10 md:pt-20">
+  <h1 class="text-4xl md:text-5xl font-semibold leading-tight">Réalisations DreamNest</h1>
+  <p class="mt-3 text-[var(--muted)]">Un aperçu de nos chambres sur mesure : bois clair, rangements intelligents, sécurité et finitions haut de gamme.</p>
+  <div class="mt-8 grid sm:grid-cols-2 md:grid-cols-3 gap-6">
+    <figure class="card overflow-hidden"><img src="https://images.unsplash.com/photo-1616594039964-ae9021e290ae?q=80&w=1200&auto=format&fit=crop" class="w-full h-64 object-cover" alt="Inspiration 1"><figcaption class="p-4 text-[var(--muted)]">Lit cabane scandinave</figcaption></figure>
+    <figure class="card overflow-hidden"><img src="https://images.unsplash.com/photo-1604881989624-9e1fba0e4b51?q=80&w=1200&auto=format&fit=crop" class="w-full h-64 object-cover" alt="Inspiration 2"><figcaption class="p-4 text-[var(--muted)]">Toboggan intégré</figcaption></figure>
+    <figure class="card overflow-hidden"><img src="https://images.unsplash.com/photo-1616594091143-9d6d52a79314?q=80&w=1600&auto=format&fit=crop" class="w-full h-64 object-cover" alt="Inspiration 3"><figcaption class="p-4 text-[var(--muted)]">Coin jeu lumineux</figcaption></figure>
+    <figure class="card overflow-hidden"><img src="https://images.unsplash.com/photo-1616628188502-b6c8c32fef39?q=80&w=1200&auto=format&fit=crop" class="w-full h-64 object-cover" alt="Inspiration 4"><figcaption class="p-4 text-[var(--muted)]">Mezzanine + bureau</figcaption></figure>
+    <figure class="card overflow-hidden"><img src="https://images.unsplash.com/photo-1600573472591-ee6c8e69565b?q=80&w=1200&auto=format&fit=crop" class="w-full h-64 object-cover" alt="Inspiration 5"><figcaption class="p-4 text-[var(--muted)]">LED d’ambiance</figcaption></figure>
+    <figure class="card overflow-hidden"><img src="https://images.unsplash.com/photo-1616594039932-0aa7e0c3c7c5?q=80&w=1200&auto=format&fit=crop" class="w-full h-64 object-cover" alt="Inspiration 6"><figcaption class="p-4 text-[var(--muted)]">Rangements intégrés</figcaption></figure>
+  </div>
+  <div class="mt-10"><a href="/#contact" class="bg-[var(--ink)] text-white px-5 py-3 rounded-xl hover:opacity-90">Demander un devis</a></div>
+</section>
+  <footer class="py-10 text-center text-sm text-[var(--muted)]">© <span id="y"></span> DreamNest — Chambres d’enfants sur mesure à Rabat.</footer>
+  <script>document.getElementById('y').textContent = new Date().getFullYear()</script>
+</body>
+</html>
