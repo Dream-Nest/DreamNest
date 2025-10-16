@@ -1,8 +1,0 @@
-# Optional: Pretty redirect for gallery
-[[redirects]]
-  from = "/galerie"
-  to = "/galerie.html"
-  status = 301
-
-[build]
-  publish = "."
